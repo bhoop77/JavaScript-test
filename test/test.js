@@ -14,6 +14,10 @@ describe('MyLib', function() {
     	assert.equal(typeof(myLib.test), 'object');
     });
 
+    it('should have a property called run that is a function', function() {
+        assert.equal(typeof(myLib.run), 'function');
+    });
+
     describe('assert', function() {
     	it('should have a property called equal that is a function', function() {
     		assert.equal(typeof(myLib.assert.equal), 'function');
