@@ -4,5 +4,8 @@ module.exports = {
 			return one === two
 		}
 	},
+	run : function(){
+			
+	},
 	test : {}
 };
