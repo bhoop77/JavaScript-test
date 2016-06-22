@@ -1,1 +1,2 @@
 # JavaScript-test
+Bryan Hooper
