@@ -1,11 +1,1 @@
-module.exports = {
-	assert : {
-		equal : function(one, two){
-			return one === two
-		}
-	},
-	run : function(){
-			
-	},
-	test : {}
-};
+module.exports = require('./lib');
